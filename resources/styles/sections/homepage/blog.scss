@@ -1,0 +1,16 @@
+#bloglist {
+    .item-blog {
+        height:100%;
+    }
+    .item-blog img {
+        height:240px;
+        object-fit: cover;
+        width:100%;
+    }
+    .item-blog a {
+        font-weight:bold;
+        margin-top:15px;
+        display: inline-block;
+        text-decoration: none;
+    }
+}

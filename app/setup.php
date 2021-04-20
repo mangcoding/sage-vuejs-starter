@@ -79,6 +79,10 @@ add_action('after_setup_theme', function () {
         'primary_navigation' => __('Primary Navigation', 'sage')
     ]);
 
+    register_nav_menus([
+        'secondary_navigation' => __('Secondary Navigation', 'sage')
+    ]);
+
     /**
      * Register the editor color palette.
      * @link https://developer.wordpress.org/block-editor/developers/themes/theme-support/#block-color-palettes

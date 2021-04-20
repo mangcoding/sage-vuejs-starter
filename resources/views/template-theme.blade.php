@@ -5,5 +5,5 @@
 @extends('layouts.app')
 
 @section('content')
-  <theme-components class="mt-5"></theme-components>
+  <theme-components></theme-components>
 @endsection

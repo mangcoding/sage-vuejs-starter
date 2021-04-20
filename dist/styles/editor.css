@@ -1,10 +1,3 @@
-.block-editor-block-list__layout {
-  @apply font-sans;
-}
+.block-editor-block-list__layout{@apply font-sans}.wp-block{@apply max-w-screen-md}.wp-block.editor-post-title__block .editor-post-title__input{@apply font-sans !important}
 
-.wp-block {
-  @apply max-w-screen-md;
-}
-.wp-block.editor-post-title__block .editor-post-title__input {
-  @apply font-sans !important;
-}
+/*# sourceMappingURL=editor.css.map*/

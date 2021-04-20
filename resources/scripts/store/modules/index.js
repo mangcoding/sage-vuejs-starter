@@ -1,5 +1,5 @@
-import pages from "./pages";
+import homepage from "./homepage";
 
 export default {
-  pages,
+  homepage,
 };
