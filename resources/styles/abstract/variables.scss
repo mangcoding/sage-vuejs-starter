@@ -1,0 +1,203 @@
+/**
+ * Variables
+ * Override more see : https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss
+ */
+
+//Brand colors
+$color-brand-blue: #19105e;
+$color-brand-pink: #ff15b1;
+$color-brand-aqua: #1bcfc9;
+$color-brand-orange: #ff5000;
+$color-brand-grey: #f2f2f2;
+//Theme colors
+$color-primary: $color-brand-aqua;
+$color-secondary: $color-brand-pink;
+
+$color-light: #fefefa;
+$color-lightest: #fdfdfd;
+$color-dark: #272626;
+
+// Social colors
+$color-facebook: #3b5998;
+$color-feedly: #2bb24c;
+$color-github: #333;
+$color-google: #dc4e41;
+$color-instagram: #3f729b;
+$color-linkedin: #0077b5;
+$color-medium: #00ab6b;
+$color-messenger: #0084ff;
+$color-rss: #f26522;
+$color-spotify: #2ebd59;
+$color-twitter: #55acee;
+
+// Borders
+$border-light: solid 1px rgba(0, 0, 0, 0.05);
+
+// Font Size
+$font-size-base: 1rem;
+$font-size-small: $font-size-base * 0.875 !default;
+$font-size-smallest: $font-size-base * 0.75 !default;
+$font-size-large: $font-size-base * 1.25 !default;
+$font-size-largest: $font-size-base * 2 !default;
+$font-size-biggest: $font-size-base * 4 !default;
+
+$font-size-base: 1rem !default;
+$font-size-xs: $font-size-smallest;
+$font-size-sm: $font-size-small;
+$font-size-lg: $font-size-large;
+$font-size-xl: $font-size-largest;
+$font-size-xxl: $font-size-biggest;
+// Spacing
+$spacing-small: 0.75rem;
+$spacing-single: 1rem;
+$spacing-double: 2rem;
+$spacing-triple: 3rem;
+$spacing-big: 6rem;
+
+//fonts
+$nanum-gothic: "Nanum Gothic", sans-serif;
+$open-sans: "Open Sans", sans-serif;
+/**
+ * Override bootstrap vars
+ */
+
+//Body
+$body-bg: $color-light;
+$body-color: $color-dark;
+
+//color
+$primary: $color-brand-blue;
+$secondary: $color-brand-aqua;
+
+$theme-colors: () !default;
+$theme-colors: map-merge((
+    "blue": $color-brand-blue,
+    "pink": $color-brand-pink,
+    "aqua": $color-brand-aqua,
+    "orange": $color-brand-orange,
+    "grey": $color-brand-grey),
+  $theme-colors);
+
+//alerts
+$alert-bg-level: -1;
+$alert-color-level: 10p;
+$alert-border-width: 0;
+$alert-padding-y: 1.1rem;
+$alert-padding-x: 1.25rem;
+
+$border-radius: 0.25rem !default;
+$border-radius-lg: 0.5rem !default;
+$border-radius-sm: 0.2rem !default;
+
+//Global options
+$enable-rounded: true;
+$enable-responsive-font-sizes: true;
+
+//links
+$link-decoration: underline !default;
+$link-hover-decoration: underline !default;
+$emphasized-link-hover-darken-percentage: 15% !default;
+
+$font-family-sans-serif: $nanum-gothic;
+
+/**
+ * Font 
+ */
+
+$font-family-base: $nanum-gothic;
+// stylelint-enable value-keyword-case
+// $font-weight-lighter: lighter !default;
+// $font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
+$font-weight-bolder: 800 !default;
+
+$font-weight-base: 500;
+// $line-height-base: 1.5 !default;
+
+$h1-font-size: $font-size-base * 2.5 !default;
+$h2-font-size: $font-size-base * 2.1875 !default;
+$h3-font-size: $font-size-base * 1.87 !default;
+$h4-font-size: $font-size-base * 1.5 !default;
+$h5-font-size: $font-size-base * 1.25 !default;
+$h6-font-size: $font-size-base !default;
+
+// $headings-margin-bottom: $spacer / 2 !default;
+// $headings-font-family: null !default;
+$headings-font-weight: 700 !default;
+// $headings-line-height: 1.2 !default;
+// $headings-color: null !default;
+
+$display1-size: 4.5625rem !default;
+$display2-size: 3.625rem !default;
+$display3-size: 2.18rem !default;
+$display4-size: 1.5rem !default;
+
+$display1-weight: 700 !default;
+$display2-weight: 700 !default;
+$display3-weight: 700 !default;
+$display4-weight: 700 !default;
+// $display-line-height: $headings-line-height !default;
+
+$lead-font-size: $font-size-base * 1.28 !default;
+$lead-font-weight: 600 !default;
+
+// $small-font-size: 80% !default;
+
+// $text-muted: $gray-600 !default;
+
+// $blockquote-small-color: $gray-600 !default;
+// $blockquote-small-font-size: $small-font-size !default;
+// $blockquote-font-size: $font-size-base * 1.25 !default;
+
+// $hr-border-color: rgba($black, 0.1) !default;
+// $hr-border-width: $border-width !default;
+
+// $mark-padding: 0.2em !default;
+
+// $dt-font-weight: $font-weight-bold !default;
+
+// $kbd-box-shadow: inset 0 -0.1rem 0 rgba($black, 0.25) !default;
+// $nested-kbd-font-weight: $font-weight-bold !default;
+
+// $list-inline-padding: 0.5rem !default;
+
+// $mark-bg: #fcf8e3 !default;
+
+// $hr-margin-y: $spacer !default;
+
+/**
+ * Buttons 
+ */
+
+$input-btn-padding-y: 0.7rem;
+$input-btn-padding-x: 1.7rem;
+
+$input-btn-padding-y-lg: 1.2rem;
+$input-btn-padding-x-lg: 2rem;
+
+$input-btn-padding-y-sm: 0.25rem !default;
+$input-btn-padding-x-sm: 1rem !default;
+$input-btn-font-size-md: $font-size-large !default;
+$input-btn-font-family: $open-sans;
+$input-btn-focus-box-shadow: false !default;
+$btn-focus-box-shadow: false !default;
+$btn-font-weight: $font-weight-bold;
+
+$input-padding-y: 0.7rem;
+$input-padding-x: 0.7rem;
+
+$breadcrumb-padding-horizontal: 0 !default;
+
+
+//Pagination 
+$pagination-border-color:transparent;
+$pagination-hover-border-color:transparent;
+$pagination-color:$color-brand-pink;
+$pagination-hover-color:darken($color-brand-pink, 30%);
+$pagination-active-color:darken($color-brand-pink, 30%);
+$pagination-bg:transparent;
+$pagination-active-bg:transparent;
+$pagination-hover-bg:transparent;
+$pagination-disabled-bg:transparent;
+$pagination-disabled-border-color:transparent;

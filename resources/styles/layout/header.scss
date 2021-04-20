@@ -1,0 +1,13 @@
+.navigation-header {
+    position:absolute;
+    width:100%;
+    top:0;
+    left:0;
+    
+    .nav-primary a {
+        text-decoration: none;
+        font-weight: bold;
+        padding:10px 15px;
+        display: inline-block;
+    }
+}

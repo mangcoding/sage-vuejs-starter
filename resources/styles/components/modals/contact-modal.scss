@@ -1,0 +1,19 @@
+#contact-modal {
+  .modal-content {
+    border-radius: 1rem;
+    overflow: hidden;
+    border-color: transparent;
+  }
+
+  .modal-header {
+    border: none;
+  }
+
+  p,
+  .address,
+  a {
+    font-family: $open-sans;
+    line-height: 140%;
+    font-weight: 300;
+  }
+}
